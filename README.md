@@ -40,7 +40,7 @@ Tracer.end();
 Then check what happened:
 
 ```bash
-java -jar req-tracer.jar inspect req-123
+java -jar request-timeline.jar inspect req-123
 ```
 
 Output:
@@ -60,7 +60,7 @@ TOTAL: 140ms
 Want it in one line? Use `--compact`:
 
 ```bash
-java -jar req-tracer.jar inspect req-123 --compact
+java -jar request-timeline.jar inspect req-123 --compact
 ```
 
 ```
@@ -74,7 +74,7 @@ java -jar req-tracer.jar inspect req-123 --compact
 ```xml
 <dependency>
     <groupId>io.reqtracer</groupId>
-    <artifactId>req-tracer</artifactId>
+    <artifactId>request-timeline</artifactId>
     <version>1.0.0</version>
 </dependency>
 ```
@@ -228,8 +228,8 @@ mvn test
 mvn clean package
 
 # Try the example
-java -cp target/req-tracer-1.0.0.jar io.reqtracer.examples.ExampleUsage
-java -jar target/req-tracer-1.0.0.jar inspect req-123
+java -cp target/request-timeline-1.0.0.jar io.reqtracer.examples.ExampleUsage
+java -jar target/request-timeline-1.0.0.jar inspect req-123
 ```
 
 ## Project structure

@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.reqtracer</groupId>
-    <artifactId>req-tracer</artifactId>
+    <artifactId>request-timeline</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Request Tracer</name>
+    <name>Request Timeline</name>
     <description>A lightweight, developer-first request lifecycle tracing tool</description>
 
     <properties>
